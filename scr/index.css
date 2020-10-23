@@ -1,0 +1,18 @@
+body {
+	background: #494949;
+	color: #ffbb0e;
+}
+
+.botoes{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.btn-outline-warning{
+	border: none;
+}
+
+.btn-outline-warning:hover{
+	transition-duration: 0.7s;
+}
