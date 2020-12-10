@@ -1,0 +1,46 @@
+body {
+	background: #2e2e2e;
+	color: #ffce00;
+}
+
+hr {
+	background: #ffce00;
+}
+
+h1{
+	color: #ffce00;
+}
+
+a:link { 
+ 	text-decoration:none;
+} 
+
+.inicio {
+	padding-top: 150px;
+}
+
+.table {
+	color: #ffce00;
+}
+
+.inicio {
+	padding-top: 15px;
+}
+
+.form-group {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	max-width: 380px;
+	max-height: 80px;
+}
+
+.form-inline {
+	padding-left: 610px;
+}
+
+.alert-warning {
+	border: 1px solid #ffce00;
+	background: #2e2e2e;
+	color: #ffce00;
+	width: 280px;
+}

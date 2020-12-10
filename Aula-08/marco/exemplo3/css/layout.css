@@ -1,0 +1,47 @@
+.topo {
+	height: 120px; 
+	background: #ddd;
+}
+
+.topo .left {
+	height: 120px;
+	width: 100px;
+	float: left;
+	background:  url("../imagem/logo.png") no-repeat center;
+	background-size: 130px auto;
+}
+
+.topo .center {
+	height: 120px;
+	width: 500px;
+	margin: 0 auto 0 auto;
+	background:  url("../imagem/logo-topo.png") no-repeat center;
+}
+
+.topo .right {
+	height: 120px;
+	width: 300px;
+	float: right;
+}
+
+.topo .right .parte-1 {
+	width: 90px;
+	height: 120px;
+	float: left;
+	background:  url("../imagem/facebook.png") no-repeat center;
+	background-size: 60px auto;
+}
+.topo .right .parte-2 {
+	width: 90px;
+	height: 120px;
+	float: right;
+	background:  url("../imagem/whats.png") no-repeat center;
+	background-size: 60px auto;
+}
+.topo .right .parte-3 {
+	width: 90px;
+	height: 120px;
+	float: right;
+	background:  url("../imagem/site.png") no-repeat center;
+	background-size: 60px auto;
+}

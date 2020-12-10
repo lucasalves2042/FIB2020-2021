@@ -1,0 +1,37 @@
+ESTRUTURA BANCO DE DADOS:
+tbl_clientes
+	clienteID	INT
+		auto increment	tam=5
+	clienteNome	VARCHAR
+		tam=50
+	clienteCPF	INT
+		tam=11
+	clienteCEP	INT
+		tam=8
+	clienteFone	INT
+		tam=9
+
+tbl_produtos
+	produtoID	INT
+		auto increment	tam=5
+	produtoNome	VARCHAR
+		tam=50
+	produtoPreco	DECIMAL
+		tam=7.2 (10)
+	produtoQuantidade	INT
+		tam=3
+	produtoData	INT
+		tam=2
+
+tbl_fornecedores
+	fornecedorID	INT
+		auto increment	tam=5
+	fornecedorNome	VARCHAR
+		tam=50
+	fornecedorCNPJ	INT
+		tam=14
+	fornecedorCEP	INT
+		tam=8
+	fornecedorFone	INT
+		tam=9
+
